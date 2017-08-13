@@ -1,0 +1,18 @@
+1: Achievement system:
+The player can obtain achievements for completing various objectives while playing the game.
+More details on this feature, including a list of all possible achievements, can be found in our documentation.
+This feature is enabled with the -a command(a for achievement).
+
+2: Intelligent tracking:
+Any hostile enemy that is in the same room as the player will now attempt to chase down the player; ie move towards
+them every turn instead of moving randomly. This does not apply to immovable creatures such as dragons, or non-hostile
+creatures such as merchants(unless they become hostile).
+This feature is enabled with the -t command(t for tracking).
+
+3: Difficulty levels:
+The game now has an option to play in either challenge mode or easy mode, in addition to normal mode. 
+In challenge mode, all enemies gain boosted stats, and additionally more enemies are spawned per floor. The number of gold and potion items
+has also been reduced.
+In easy mode, fewer enemies spawn per level, and each enemy has lower combat stats than normal. The number of potion and gold drops
+has also been slightly increased.
+This feature is enabled with the -c or -e command(c for challenge, or e for easy). If multiple -c and -e are provided, the first one is taken.
